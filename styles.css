@@ -1,0 +1,92 @@
+header {
+    background-image: url("me.jpg");
+    font-size: xx-large;
+    color: white;
+    padding: 50px;
+}
+
+body {
+    background-color: #2B2223;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-weight: normal;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    color: #F89551;
+    font-weight: bold;
+}
+
+ul.navmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2E2E2E;
+    top: 0;
+    width: 100%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.menu {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #F89551;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    text-align: center;
+}
+
+.education_flex-container,
+.work_flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.education_flex-item,
+.work_flex-item {
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    flex-grow: 1;
+    width: 70%;
+}
+
+#box {
+    fill: #F89551;
+}
+
+table td+td {
+    border-left: 2px solid #F89551;
+}
+
+td {
+    padding: 10px;
+}
