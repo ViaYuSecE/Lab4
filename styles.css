@@ -3,13 +3,23 @@ header {
     font-size: xx-large;
     color: white;
     padding: 50px;
+    animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+    0% {
+        color: #f30000
+    }
+
+    100% {
+        color: #f3c500
+    }
 }
 
 body {
-    background-color: #2B2223;
+    background-color: #0B132B;
     font-family: Helvetica, sans-serif;
     color: white;
-    font-weight: normal;
 }
 
 h1 {
@@ -17,16 +27,15 @@ h1 {
 }
 
 h2 {
-    color: #F89551;
+    color: #ff8080;
     font-weight: bold;
 }
 
 ul.navmenu {
     list-style-type: none;
     margin: 0;
-    padding: 0;
     overflow: hidden;
-    background-color: #2E2E2E;
+    background-color: #3A506B;
     top: 0;
     width: 100%;
     font-size: large;
@@ -46,7 +55,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #F89551;
+    background-color: #65AFFF;
 }
 
 .row {
@@ -63,13 +72,12 @@ li a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
     flex-direction: column;
 }
 
 .education_flex-item,
 .work_flex-item {
-    border: 1px solid white;
+    background-color: #1C2541;
     border-radius: 25px;
     padding: 10px;
     margin: 10px;
@@ -80,13 +88,14 @@ li a:hover {
 }
 
 #box {
-    fill: #F89551;
+    fill: #65AFFF;
 }
 
 table td+td {
-    border-left: 2px solid #F89551;
+    border-left: 2px solid #65AFFF;
 }
 
 td {
-    padding: 10px;
+    padding: 20px;
+    text-align: left;
 }
